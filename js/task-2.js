@@ -1,8 +1,8 @@
 function formatMessage(message, maxLength) {
     if (message.length <= maxLength) {
-      return message; // Якщо довжина рядка менша або дорівнює maxLength, повертаємо його без змін
+      return message; 
     } else {
-      return message.slice(0, maxLength) + '...'; // Якщо довжина перевищує maxLength, обрізаємо і додаємо трикрапку
+      return message.slice(0, maxLength) + '...'; 
     }
   }
   
